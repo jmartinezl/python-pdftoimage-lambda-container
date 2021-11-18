@@ -1,7 +1,5 @@
 # Custom AWS Lambda with Docker Container (Python 3.8)
 
-# [AWS Lambda with custom docker images as runtime](https://www.philschmid.de/aws-lambda-with-custom-docker-image)
-
 # Introduction
 
 This repository is for anyone looking for python custom Dockerfile lambda example, maybe you are searching for a way to run pytho poppler in aws lambda.
@@ -144,3 +142,5 @@ In the Lambda console, you can set the timeout (1–900 seconds) and the memory 
 For further information: https://docs.aws.amazon.com/lambda/latest/dg/images-create.html, https://docs.aws.amazon.com/lambda/latest/dg/configuration-images.html
 
 Recommended reading: https://shpals.medium.com/create-aws-lambda-from-ecr-docker-image-and-integrate-it-with-github-ci-cd-pipeline-dfa3015b5ee0
+
+[AWS Lambda with custom docker images as runtime](https://www.philschmid.de/aws-lambda-with-custom-docker-image)
