@@ -6,7 +6,7 @@ RUN yum update && \
 RUN ln -s /usr/bin/cmake3 /usr/bin/cmake
 
 
-# Pythonモジュールのインストール
+# Python requirements
 COPY requirements.txt .
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt && \
