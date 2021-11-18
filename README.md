@@ -44,7 +44,7 @@ def handler(event, context):
     return response
 ```
 
-To containerize our Lambda Function, we create a `dockerfile` in the same directory and copy the following content.
+To containerize our Lambda Function, we have a `dockerfile` in the same directory with the following content.
 
 ```bash
 FROM public.ecr.aws/lambda/python:3.8
@@ -131,7 +131,7 @@ Finally, we push the image to ECR Registry.
 
 ---
 
-# Set up lambda function from ECR repository
+# Set up `AWS Lambda Function` from `ECR repository`
 
 Once the image is pushed to the ECR, you can use it in a new Lambda function. In the Lambda console, choose Create function, and then select the new container image in the Basic information panel. Choose Create function to finish the process.
 
