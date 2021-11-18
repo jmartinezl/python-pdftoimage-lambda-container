@@ -2,7 +2,7 @@
 
 # Introduction
 
-This repository is for anyone looking for python custom Dockerfile lambda example, maybe you are searching for a way to run pytho poppler in aws lambda.
+This repository is for anyone looking for python custom Dockerfile lambda example, maybe you are searching for a way to run python poppler library in `aws lambda function`.
 
 # Services used in this example
 
