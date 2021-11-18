@@ -1,0 +1,5 @@
+pillow
+pdfkit
+python-poppler
+zeep
+pdf2image
