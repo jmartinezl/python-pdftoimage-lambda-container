@@ -135,11 +135,12 @@ Finally, we push the image to ECR Registry.
 
 Once the image is pushed to the ECR, you can use it in a new Lambda function. In the Lambda console, choose Create function, and then select the new container image in the Basic information panel. Choose Create function to finish the process.
 
-In the next page, a notification appears when the function is successfully created with the container image. You can test this function in the same way as any regular Lambda function. After choosing Test, you see the random test data returned by the function code:
+For Container image URI, provide a container image we already created.
 
 In the Lambda console, you can set the timeout (1–900 seconds) and the memory allocation (128 MB to 10,240 MB). The 10 GB limit is a new feature, raising the previous memory maximum of 3 GB.
+
 ---
 
-For further information: https://docs.aws.amazon.com/lambda/latest/dg/images-create.html
+For further information: https://docs.aws.amazon.com/lambda/latest/dg/images-create.html, https://docs.aws.amazon.com/lambda/latest/dg/configuration-images.html
 
 Recommended reading: https://shpals.medium.com/create-aws-lambda-from-ecr-docker-image-and-integrate-it-with-github-ci-cd-pipeline-dfa3015b5ee0
